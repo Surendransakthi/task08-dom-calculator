@@ -1,0 +1,33 @@
+body{
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(back.jpg);
+}
+.button{
+    background-color: cyan;
+    width:100%;
+    border-radius: 15px;
+}
+.button:hover{
+    background-color: darkgoldenrod;
+}
+#result{
+    width:100%;
+}
+.contain{
+    width: 420px;
+	height:420px;
+	background-color: #eaedef;
+	margin: 0 auto;
+	top: 80px;
+	position: relative;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.row{
+    border :hotpink 4px solid red;
+    height:auto;
+    font-size: 45px;
+    border-radius: 20px;
+    padding: 5px;
+}
